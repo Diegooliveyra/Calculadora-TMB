@@ -10,7 +10,10 @@ body {
 .container {
   width: 700px;
   margin: 0 auto;
-  padding: 0 20px;
+}
+
+.disable {
+  display: none;
 }
 
 .header {
@@ -44,7 +47,7 @@ body {
 }
 
 .form-radio {
-  margin: 5px 0;
+  margin: 5px 0 0 0;
 }
 
 .form-input input {
@@ -82,4 +85,40 @@ body {
 
 .btn-form:hover {
   background-color: #0bac08;
+}
+
+@media (max-width: 740px) {
+  .container {
+    width: 100%;
+  }
+  .header {
+    padding: 40px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 24px;
+  }
+  .form-wrapper {
+    flex-direction: column;
+  }
+  .form-input {
+    flex-direction: column;
+    width: 80%;
+  }
+  .form-input input {
+    max-width: 100%;
+
+  }
+  .form-radio {
+    align-self: center;
+  }
+  .form-input select {
+    max-width: 100%;
+  }
+  .btn-form {
+    max-width: 100%;
+  }
+  
 }
