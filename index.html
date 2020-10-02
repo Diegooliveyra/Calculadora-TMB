@@ -14,8 +14,8 @@
     <header class="container header ">
       <h1>Calculadora de Taxa Metabólica Basal</h1>
     </header>
-    <section class="container disable">
-      <form class="form">
+    <section class="container">
+      <form class="form" data-js="form-calculator">
         <div class="form-wrapper">
           <div class="form-label">
             <label>Sexo:</label>
@@ -23,11 +23,11 @@
           <!--form-label-->
           <div class="form-input">
             <div class="form-radio">
-              <input type="radio" name="gender" id="Masculino" value="man" />
+              <input type="radio" name="gender" data-js="gender" id="Masculino" value="" />
               <label for="Masculino">Masculino</label>
             </div>
             <div class="form-radio">
-              <input type="radio" name="gender" id="Feminino" value="woman" />
+              <input type="radio" name="gender" data-js="gender" id="Feminino" value="" />
               <label for="Feminino">Feminino</label>
             </div>
           </div>
@@ -41,7 +41,7 @@
           </div>
           <!--form-label-->
           <div class="form-input">
-            <input type="number" name="age" />
+            <input type="number" data-js="age" name="age" />
           </div>
           <!--form-input-->
         </div>
@@ -53,7 +53,7 @@
           </div>
           <!--form-label-->
           <div class="form-input">
-            <input type="number" name="weight" />
+            <input type="number" data-js="height" name="weight" />
           </div>
           <!--form-input-->
         </div>
@@ -65,7 +65,7 @@
           </div>
           <!--form-label-->
           <div class="form-input">
-            <input type="number" name="nome" />
+            <input type="number" data-js="weight" name="nome" />
           </div>
           <!--form-input-->
         </div>
@@ -77,7 +77,7 @@
           </div>
           <!--form-label-->
           <div class="form-input">
-            <select class="form-select" name="" id="">
+            <select class="form-select" data-js="level" name="" id="">
               <option value="">Sedentário</option>
               <option value="">Exercicio leve</option>
               <option value="">Exercicio moderado</option>
@@ -91,7 +91,7 @@
           <div class="form-label"></div>
           <!--form-label-->
           <div class="form-input">
-            <button class="btn-form" type="submit">Calcular</button>
+            <button class="btn-form" data-js="btn-form" type="submit">Calcular</button>
           </div>
           <!--form-input-->
         </div>
@@ -125,5 +125,6 @@
         </div>
       </div>
     </section>
+    <script src="js/main.js"></script>
   </body>
 </html>
