@@ -11,15 +11,18 @@
     <link rel="stylesheet" href="css/main.css"">
   </head>
   <body>
+    <header class="container header">
+      <h1>Calculadora de Taxa Metabólica Basal</h1>
+    </header>
     <section class="container">
-      <form>
+      <form class="form">
         <div class="form-wrapper">
           <div class="form-label">
             <label>Sexo:</label>
           </div>
           <!--form-label-->
           <div class="form-input">
-            <div>
+            <div class="form-radio">
               <input type="radio" name="gender" id="Masculino" value="man" />
               <label for="Masculino">Masculino</label>
             </div>
@@ -84,8 +87,19 @@
           <!--form-input-->
         </div>
         <!--form-wrapper-->
+        <div class="form-wrapper">
+          <div class="form-label">
+           
+          </div>
+          <!--form-label-->
+          <div class="form-input">
+            <button class="btn-form" type="submit">Calcular</button>
+          </div>
+          <!--form-input-->
+        </div>
+        <!--form-wrapper-->
 
-        <button type="submit">Calcular</button>
+        
       </form>
     </section>
   </body>
