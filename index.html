@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="css/main.css"">
   </head>
   <body>
-    <header class="container header">
+    <header class="container header ">
       <h1>Calculadora de Taxa Metabólica Basal</h1>
     </header>
-    <section class="container">
+    <section class="container disable">
       <form class="form">
         <div class="form-wrapper">
           <div class="form-label">
@@ -77,7 +77,7 @@
           </div>
           <!--form-label-->
           <div class="form-input">
-            <select  class="form-select" name="" id="">
+            <select class="form-select" name="" id="">
               <option value="">Sedentário</option>
               <option value="">Exercicio leve</option>
               <option value="">Exercicio moderado</option>
@@ -88,9 +88,7 @@
         </div>
         <!--form-wrapper-->
         <div class="form-wrapper">
-          <div class="form-label">
-           
-          </div>
+          <div class="form-label"></div>
           <!--form-label-->
           <div class="form-input">
             <button class="btn-form" type="submit">Calcular</button>
@@ -98,9 +96,34 @@
           <!--form-input-->
         </div>
         <!--form-wrapper-->
-
-        
       </form>
+    </section>
+
+    <section class="container">
+      <header class="container header-result">
+        <h1>Resultado</h1>
+      </header>
+      <div class="wraper-result">
+        <div class="form-result">
+          <h2>Metabolismo basal:</h2>
+          <input type="text" />
+        </div>
+        <div class="form-result">
+          <h2>Calorias necessárias para manter o peso:</h2>
+          <input type="text" />
+        </div>
+        <div class="form-result">
+          <h2>Calorias para emagrecer:</h2>
+          <input type="text" />
+        </div>
+        <div class="form-result">
+          <h2>Calorias para subir de peso:</h2>
+          <input type="text" />
+        </div>
+        <div class="form-input">
+          <button class="btn-form" type="submit">Voltar</button>
+        </div>
+      </div>
     </section>
   </body>
 </html>
