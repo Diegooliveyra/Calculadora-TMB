@@ -1,12 +1,92 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Calculadora TMB</title>
-</head>
-<body>
-  
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora TMB</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css"">
+  </head>
+  <body>
+    <section class="container">
+      <form>
+        <div class="form-wrapper">
+          <div class="form-label">
+            <label>Sexo:</label>
+          </div>
+          <!--form-label-->
+          <div class="form-input">
+            <div>
+              <input type="radio" name="gender" id="Masculino" value="man" />
+              <label for="Masculino">Masculino</label>
+            </div>
+            <div>
+              <input type="radio" name="gender" id="Feminino" value="woman" />
+              <label for="Feminino">Feminino</label>
+            </div>
+          </div>
+          <!--form-input-->
+        </div>
+        <!--form-wrapper-->
+
+        <div class="form-wrapper">
+          <div class="form-label">
+            <label>Idade:</label>
+          </div>
+          <!--form-label-->
+          <div class="form-input">
+            <input type="number" name="age" />
+          </div>
+          <!--form-input-->
+        </div>
+        <!--form-wrapper-->
+
+        <div class="form-wrapper">
+          <div class="form-label">
+            <label>Altura:</label>
+          </div>
+          <!--form-label-->
+          <div class="form-input">
+            <input type="number" name="weight" />
+          </div>
+          <!--form-input-->
+        </div>
+        <!--form-wrapper-->
+
+        <div class="form-wrapper">
+          <div class="form-label">
+            <label>Peso:</label>
+          </div>
+          <!--form-label-->
+          <div class="form-input">
+            <input type="number" name="nome" />
+          </div>
+          <!--form-input-->
+        </div>
+        <!--form-wrapper-->
+
+        <div class="form-wrapper">
+          <div class="form-label">
+            <label>Nivel de Atividade:</label>
+          </div>
+          <!--form-label-->
+          <div class="form-input">
+            <select name="" id="">
+              <option value="">Sedentário</option>
+              <option value="">Exercicio leve</option>
+              <option value="">Exercicio moderado</option>
+              <option value="">Exercicio pesado</option>
+            </select>
+          </div>
+          <!--form-input-->
+        </div>
+        <!--form-wrapper-->
+
+        <button type="submit">Calcular</button>
+      </form>
+    </section>
+  </body>
 </html>
