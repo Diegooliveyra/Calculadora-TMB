@@ -16,8 +16,7 @@ $btnToBack.addEventListener("submit", backToForm, false);
 
 function app(e) {
   e.preventDefault();
-  const genderValue = getRadioValue();
-  $metabolismo.value = calculatorTbm(genderValue);
+  $metabolismo.value = calculatorTbm(getRadioValue());
   $keepWeight.value = keepWeight();
   $loseWeigth.value = loseWeigth();
   $gainWeight.value = gainWeight();
