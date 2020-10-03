@@ -19,7 +19,7 @@
 <h3>ℹ️ Como usar</h3>
 
     # Clone esse repositório
-    $ git clone https://github.com/Diegooliveyra/dogflix-Imersao-Alura.git
+    $ git clone https://github.com/Diegooliveyra/Calculadora-TMB.git
     
     # Acessar
     $ Click em index.html
