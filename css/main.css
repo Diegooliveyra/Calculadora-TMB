@@ -25,6 +25,8 @@ body {
 .header h1 {
   color: var(--font-color);
   text-align: center;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 .form-wrapper {
@@ -93,7 +95,7 @@ body {
 /****** Resultado *****/
 
 .header-result {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   text-align: center;
   margin: 40px 0;
