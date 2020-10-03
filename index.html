@@ -12,7 +12,7 @@
   </head>
   <body>
     <section id="togle" class="container">
-      <header class=" header ">
+      <header class="header">
         <h1>Calculadora de Taxa Metabólica Basal</h1>
       </header>
       <form class="form" data-js="form-calculator">
@@ -23,11 +23,23 @@
           <!--form-label-->
           <div class="form-input">
             <div class="form-radio">
-              <input type="radio" name="gender" data-js="gender"  value="man" checked />
+              <input
+                type="radio"
+                name="gender"
+                data-js="gender"
+                value="man"
+                required
+              />
               <label for="Masculino">Masculino</label>
             </div>
             <div class="form-radio">
-              <input type="radio" name="gender" data-js="gender"  value="woman"  />
+              <input
+                type="radio"
+                name="gender"
+                data-js="gender"
+                value="woman"
+                required
+              />
               <label for="Feminino">Feminino</label>
             </div>
           </div>
@@ -41,7 +53,7 @@
           </div>
           <!--form-label-->
           <div class="form-input">
-            <input type="number" data-js="age" name="age" />
+            <input type="number" data-js="age" name="age" required />
           </div>
           <!--form-input-->
         </div>
@@ -53,7 +65,7 @@
           </div>
           <!--form-label-->
           <div class="form-input">
-            <input type="number" data-js="height" name="weight" />
+            <input type="number" data-js="height" name="weight" required />
           </div>
           <!--form-input-->
         </div>
@@ -65,7 +77,7 @@
           </div>
           <!--form-label-->
           <div class="form-input">
-            <input type="number" data-js="weight" name="nome" />
+            <input type="number" data-js="weight" name="nome" required />
           </div>
           <!--form-input-->
         </div>
@@ -91,7 +103,9 @@
           <div class="form-label"></div>
           <!--form-label-->
           <div class="form-input">
-            <button class="btn-form" data-js="btn-form" type="submit">Calcular</button>
+            <button class="btn-form" data-js="btn-form" type="submit">
+              Calcular
+            </button>
           </div>
           <!--form-input-->
         </div>
@@ -107,32 +121,34 @@
         <div class="wraper-result">
           <div class="form-result">
             <h2>Metabolismo basal:</h2>
-            <input type="text" data-js="metabolismo" value="">
+            <input type="text" data-js="metabolismo" value="" readonly="true" />
           </div>
+          <!--form-result-->
           <div class="form-result">
             <h2>Calorias necessárias para manter o peso:</h2>
-            <input type="text" data-js="keep-weight" value="">
+            <input type="text" data-js="keep-weight" value="" readonly="true" />
           </div>
+          <!--form-result-->
           <div class="form-result">
             <h2>Calorias para emagrecer:</h2>
-            <input type="text" data-js="lose-weigth" value="" />
+            <input type="text" data-js="lose-weigth" value="" readonly="true" />
           </div>
+          <!--form-result-->
           <div class="form-result">
             <h2>Calorias para subir de peso:</h2>
-            <input type="text" data-js="gain-weight" value="" />
+            <input type="text" data-js="gain-weight" value="" readonly="true" />
           </div>
+          <!--form-result-->
           <div class="form-input">
-            <button class="btn-form" data-js="btn-to-back" type="submit">Voltar</button>
+            <button class="btn-form" data-js="btn-to-back" type="submit">
+              Voltar
+            </button>
           </div>
+          <!--form-input-->
         </div>
+        <!--wraper-result-->
       </form>
-      
     </section>
     <script src="js/main.js"></script>
   </body>
 </html>
-
-
-
-
-           
