@@ -53,6 +53,7 @@ body {
 
 .form-radio {
   margin: 5px 0 0 0;
+  color:var(--font-color);
 }
 
 .form-input input {
@@ -60,6 +61,7 @@ body {
   max-width: 200px;
   border-radius: 5px;
   border: 1px solid #c4c4c4;
+  color:var(--font-color);
 }
 
 .form-input select {
